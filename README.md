@@ -1,2 +1,1 @@
-# Blog
-Source code for our blog articles
+Blog accompaning code
