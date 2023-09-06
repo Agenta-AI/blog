@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hn-bot"
+version = "0.1.0"
+description = "Hackernew bot"
+authors = ["Mahmoud Mabrouk <mahmoud@agenta.ai>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "hn_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+novu = "^1.3.1"
+beautifulsoup4 = "^4.12.2"
+schedule = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
